@@ -1,0 +1,54 @@
+--general notes-- 
+
+host name: 
+solace.ist.rit.edu
+
+Port: 
+22
+
+C.R.A.P acrynym 
+C - contrast
+R - repitition
+A - alginment 
+P - proximity 
+
+
+
+
+---HTML-----
+semanic tree 
+
+<head> 
+head is the FIRST element 
+head encapsulates > title 
+
+<body> 
+most everything else goes in body. body holds main headers such as <header> 
+body>header> nav U div U section U header
+body>main> nav U div U section U header
+
+<main> 
+main is put within body 
+
+<header> 
+header is within body
+
+<article> 
+
+<aside>
+
+<footer> 
+
+footer is an element placed on the VERY BOTTOM. 
+
+
+
+
+
+
+
+---CSS---
+
+
+
+
