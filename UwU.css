@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(240, 162, 175);
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(159, 233, 229);
+    position: relative;
+    top: 200px;
+    border-style: solid;
+    border-width: 200px;
+    border-color: rgb(184, 18, 82);
+    z-index: 3;
+    background-color: rgb(184, 18, 82);
+}
