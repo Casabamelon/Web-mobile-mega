@@ -44,6 +44,9 @@ body {
    
 }
 
+button:hover {
+    background-color: yellowgreen;
+}
 
 #banner {
     background-color: aqua;
@@ -51,6 +54,18 @@ body {
     top: 10px;
     width:80%;
 
+}
+
+.flex-container:hover {
+    box-shadow: 10px 10px 0px 5px teal;
+}
+
+#text > p{
+    color:brown;
+}
+
+#text > h2{
+    color:rgb(126, 23, 23);
 }
 
 #bannertxt {
@@ -61,7 +76,25 @@ body {
     color:rgb(80, 36, 255);
 }
 
+
+#rating {
+    width: 100px;
+    max-width:100px;
+    
+}
+
+
+header  {
+    text-align: center;
+    background-color: rgb(214, 224, 252);
+    padding:15px;
+    margin:10px;
+}
+
 footer {
     display:flex;
     justify-content: space-between;
+    background-color: rgb(214, 224, 252);
+    padding:5px;
+    margin:10px;
 }
