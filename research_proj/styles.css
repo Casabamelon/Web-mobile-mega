@@ -1,16 +1,25 @@
 header {
     text-align: center;
-    background-color: yellowgreen;
+    width: device-width;
+    height: 100px;
+
+    background-color: gainsboro;
+    border: solid black;
 
 
 }
 
+
 article {
+    height: 150px;
     text-align: center;
-    background-color: yellowgreen;
+    background-color: gainsboro;
+    border: solid black;
+    
 
 }
 
 div {
-    background-color: blue;
+    background-color: gainsboro;
+    border: solid black;
 }
