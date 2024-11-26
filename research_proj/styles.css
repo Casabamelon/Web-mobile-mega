@@ -3,15 +3,19 @@ header {
     height: 100px;
     max-height: 100px;
 
-    background-color: gainsboro;
-    border: solid black;
+    background-color: lightskyblue;
+    
     margin-bottom: 15px;
+    border-style:ridge; 
+    border-color:rgb(6, 44, 148);
+    border-width: 25px;
 
 }
 
 html {
     background: repeating-linear-gradient(45deg, #16749c 2%, #c4ddb1 15%, #e2c949 20%);
     padding:25px;
+    
 }
 
 #container {
@@ -23,15 +27,21 @@ html {
 article {
     height: 150px;
     text-align: center;
-    background-color: gainsboro;
-    border: solid black;
+    background-color: lightskyblue;
+    
+    border-style:ridge; 
+    border-color:rgb(6, 44, 148);
+    border-width: 25px;
     
 
 }
 
 div {
-    background-color: gainsboro;
-    border: solid black;
+    background-color: lightskyblue;
+    border-style:ridge; 
+    border-color:rgb(6, 44, 148);
+    border-width: 25px;
+    
 }
 
 footer {
@@ -39,8 +49,11 @@ footer {
     height: 100px;
     max-height: 100px;
 
-    background-color: gainsboro;
-    border: solid black;
+    background-color: lightskyblue;
+    
     margin-top: 15px;
+    border-style:ridge; 
+    border-color:rgb(6, 44, 148);
+    border-width: 25px;
 
 }
