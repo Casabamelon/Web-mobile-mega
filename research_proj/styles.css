@@ -57,3 +57,23 @@ footer {
     border-width: 25px;
 
 }
+
+nav > p {
+    background-color: lightcyan;
+    margin:auto ;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    background-size: 5px;
+    max-width: 75px;
+    transition: 1s ;
+    transition-timing-function: ease-out;
+}
+
+nav > p:hover {
+    vertical-align: left;
+    text-align: left;
+    max-width: 150px;
+    background-color:lightyellow;
+    color: darkmagenta;
+}
