@@ -7,21 +7,11 @@ header {
     border: solid black;
     margin-bottom: 15px;
 
-}
 
-html {
-    background: repeating-linear-gradient(45deg, #16749c 2%, #c4ddb1 15%, #e2c949 20%);
-    padding:25px;
 }
-
-#container {
-    display: grid;
-    grid-template-columns: 80% 20%;
-}
-
 
 article {
-    height: 150px;
+    height: 700px;
     text-align: center;
     background-color: gainsboro;
     border: solid black;
@@ -29,18 +19,17 @@ article {
 
 }
 
-div {
+footer {
     background-color: gainsboro;
     border: solid black;
-}
-
-footer {
-    text-align: center;
     height: 100px;
     max-height: 100px;
-
-    background-color: gainsboro;
-    border: solid black;
     margin-top: 15px;
 
+}
+
+
+html {
+    background: linear-gradient(0deg, #16749c, #e2c949);
+    padding:25px;
 }
