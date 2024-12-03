@@ -2,7 +2,9 @@ header {
     text-align: center;
     height: 100px;
     max-height: 100px;
-    
+    width:1200px;
+    max-width: 1500px;
+    margin:auto;
     background-color: lightskyblue;
     border-style:ridge; 
     border-color:rgb(6, 44, 148);
@@ -16,6 +18,9 @@ header {
 article {
     height: 700px;
     text-align: center;
+    width:1200px;
+    margin:auto;
+    max-width:1500px;
     background-color: lightskyblue;
     border-style:ridge; 
     border-color:rgb(6, 44, 148);
@@ -30,8 +35,12 @@ footer {
     border-color:rgb(6, 44, 148);
     border-width: 25px;
     height: 100px;
+    width: 1200px;
+    max-width: 1500px;
+    margin:auto;
     max-height: 100px;
     margin-top: 15px;
+    
 
 }
 
@@ -40,3 +49,58 @@ html {
     background: linear-gradient(0deg, #16749c, #e2c949);
     padding:25px;
 }
+
+@media screen and (max-width: 1200px) {
+    
+    html {
+        padding:15px;
+    }
+
+    header {
+        text-align: center;
+        height: 100px;
+        max-height: 100px;
+        width:600px;
+        max-width: 1500px;
+        margin:auto;
+        background-color: lightskyblue;
+        border-style:ridge; 
+        border-color:rgb(6, 44, 148);
+        border-width: 15px;
+        margin-bottom: 15px;
+
+    
+    
+    }
+    
+    article {
+        height: 700px;
+        text-align: center;
+        width:600px;
+        margin:auto;
+        max-width:1500px;
+        background-color: lightskyblue;
+        border-style:ridge; 
+        border-color:rgb(6, 44, 148);
+        border-width: 15px;
+        
+    
+    }
+    
+    footer {
+        background-color: lightskyblue;
+        border-style:ridge; 
+        border-color:rgb(6, 44, 148);
+        border-width: 15px;
+        height: 100px;
+        width: 600px;
+        max-width: 1500px;
+        margin:25px;
+        max-height: 100px;
+        margin-top: 15px;
+        
+    
+    }
+
+}
+
