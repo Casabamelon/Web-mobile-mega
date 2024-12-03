@@ -29,9 +29,7 @@ article {
     text-align: center;
     background-color: lightskyblue;
     
-    border-style:ridge; 
-    border-color:rgb(6, 44, 148);
-    border-width: 25px;
+    
     
 
 }
@@ -50,7 +48,6 @@ footer {
     max-height: 100px;
 
     background-color: lightskyblue;
-    
     margin-top: 15px;
     border-style:ridge; 
     border-color:rgb(6, 44, 148);
@@ -76,4 +73,13 @@ nav > p:hover {
     max-width: 150px;
     background-color:lightyellow;
     color: darkmagenta;
+}
+
+article > p {
+    padding: 5px;
+    margin:auto;
+    width:fit-content;
+    border-style: dashed;
+    border-color: aliceblue;
+    border-width:7px;
 }
