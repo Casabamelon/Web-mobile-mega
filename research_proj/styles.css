@@ -2,9 +2,10 @@ header {
     text-align: center;
     height: 100px;
     max-height: 100px;
-
+    width:1200px;
     background-color: lightskyblue;
-    
+    max-width:1500px;
+    margin:auto;
     margin-bottom: 15px;
     border-style:ridge; 
     border-color:rgb(6, 44, 148);
@@ -46,7 +47,9 @@ footer {
     text-align: center;
     height: 100px;
     max-height: 100px;
-
+    width:1200px;
+    max-width: 1500px;
+    margin:auto;
     background-color: lightskyblue;
     margin-top: 15px;
     border-style:ridge; 
@@ -82,4 +85,123 @@ article > p {
     border-style: dashed;
     border-color: aliceblue;
     border-width:7px;
+}
+
+#main {
+    background-color: lightskyblue;
+    border-style:ridge; 
+    border-color:rgb(6, 44, 148);
+    border-width: 25px;
+    width:1200px;
+    max-width: 1500px;
+    margin:auto;
+}
+
+p {
+    padding:15px;
+    font-size: 16pt;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+
+    #main {
+        background-color: lightskyblue;
+        border-style:ridge; 
+        border-color:rgb(6, 44, 148);
+        border-width: 25px;
+        width:600px;
+        max-width: 1500px;
+    }
+
+    
+    header {
+        text-align: center;
+        height: 100px;
+        max-height: 100px;
+        width:600px;
+        background-color: lightskyblue;
+        
+        margin-bottom: 15px;
+        border-style:ridge; 
+        border-color:rgb(6, 44, 148);
+        border-width: 25px;
+    
+    }
+    
+    html {
+        background: repeating-linear-gradient(45deg, #16749c 2%, #c4ddb1 15%, #e2c949 20%);
+        padding:25px;
+        
+    }
+    
+    #container {
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+    
+    
+    article {
+        height: 150px;
+        text-align: center;
+        background-color: lightskyblue;
+        
+        
+        
+    
+    }
+    
+    div {
+        background-color: lightskyblue;
+        border-style:ridge; 
+        border-color:rgb(6, 44, 148);
+        border-width: 25px;
+        
+    }
+    
+    footer {
+        text-align: center;
+        height: 100px;
+        max-height: 100px;
+        width:600px;
+        background-color: lightskyblue;
+        margin-top: 15px;
+        border-style:ridge; 
+        border-color:rgb(6, 44, 148);
+        border-width: 25px;
+    
+    }
+    
+    nav > p {
+        background-color: lightcyan;
+        margin:auto ;
+        line-height: 40px;
+        vertical-align: middle;
+        text-align: center;
+        background-size: 5px;
+        max-width: 75px;
+        transition: 1s ;
+        transition-timing-function: ease-out;
+    }
+    
+    nav > p:hover {
+        vertical-align: left;
+        text-align: left;
+        max-width: 150px;
+        background-color:lightyellow;
+        color: darkmagenta;
+    }
+    
+    article > p {
+        padding: 5px;
+        margin:auto;
+        width:fit-content;
+        border-style: dashed;
+        border-color: aliceblue;
+        border-width:7px;
+    }
+    
+
 }
